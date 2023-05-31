@@ -2,72 +2,189 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "playfair";
+  src: url("./assets/fonts/PlayfairDisplay-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "montserrat";
+  src: url("./assets/fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+  letter-spacing: 1.5px;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
+@media only screen and (max-width: 640px) {
   :root {
-    color: #213547;
-    background-color: #ffffff;
+    font-size: small;
+    --imgwidth: 20rem;
+    --imgheigth: 100%;
   }
-  a:hover {
-    color: #747bff;
+}
+@media only screen and (min-width: 640px) {
+  :root {
+    font-size: small;
+    --imgwidth: 20rem;
+    --imgheigth: 100%;
   }
-  button {
-    background-color: #f9f9f9;
+}
+@media only screen and (min-width: 768px) {
+  :root {
+    font-size: medium;
+    --imgwidth: 20rem;
+    --imgheigth: 100%;
+  }
+}
+@media only screen and (min-width: 1536px) {
+  :root {
+    font-size: large;
+    --imgwidth: 25rem;
+    --imgheigth: 100%;
+  }
+}
+
+@layer utilities {
+  .flexV {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .flexH {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .sbirlobo {
+    font-size: 2.5rem;
+    z-index: 10;
+    font-family: "playfair";
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+  }
+  .menuButton {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .menu {
+    position: absolute;
+    top: -224px;
+    right: 0;
+    background-color: theme("colors.secondary");
+    color: theme("colors.primary");
+    font-weight: bold;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+  }
+  .menu li {
+    padding: 1rem;
+  }
+  .active {
+    transform: translateY(300px);
+    transition: transform 0.4s ease-out;
+    z-index: 5;
+  }
+
+  .nav {
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    color: theme("colors.secondary");
+    background-color: theme("colors.primary");
+    width: fit-content;
+    padding-top: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 70%;
+    border-right: theme("colors.tertiary") solid 1px;
+  }
+  .fontCard {
+    background-color: theme("colors.primary");
+    width: max-content;
+    padding: 0.5rem;
+    margin: 1rem;
+    border: 1px solid theme("colors.tertiary");
+  }
+  .projectImg {
+    height: var(--imgheigth);
+    width: var(--imgwidth);
+    object-fit: cover;
+    object-position: 0 0;
+  }
+  .projectName {
+    font-weight: bold;
+    color: white;
+    font-size: 1rem;
+  }
+  .cardBottom {
+    letter-spacing: normal;
+  }
+  .cardButton {
+    --b: 1px; /* border thickness */
+    --s: 0.3em; /* size of the corner */
+    --color: theme(colors.tertiary);
+    padding: calc(0.5em + var(--s)) calc(0.9em + var(--s));
+    color: var(--color);
+    --_p: var(--s);
+    background: conic-gradient(
+        from 90deg at var(--b) var(--b),
+        #0000 90deg,
+        var(--color) 0
+      )
+      var(--_p) var(--_p) / calc(100% - var(--b) - 2 * var(--_p))
+      calc(100% - var(--b) - 2 * var(--_p));
+    transition: 0.3s linear, color 0s, background-color 0s;
+    outline: var(--b) solid #0000;
+    outline-offset: 0.6em;
+    border: 0;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  .cardButton:hover,
+  .cardButton:focus-visible {
+    --_p: 0px;
+    outline-color: var(--color);
+    outline-offset: 0.05em;
+  }
+  .cardButton:active {
+    background: var(--color);
+    color: #fff;
+  }
+  .contactTitle {
+    border-bottom: theme("colors.tertiary") solid 2px;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  .contactButton {
+    border: theme("colors.tertiary") solid 2px;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 0.1rem 1rem 0.1rem 1rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px rgb(224, 223, 223);
+    outline: 4px auto -webkit-focus-ring-color;
+  }
+  .contactButton:hover {
+    border-color: #646cff;
+    box-shadow: 0px 0px 5px rgb(224, 223, 223);
+  }
+  .contactButton:focus,
+  .contactButton:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
   }
 }
