@@ -70,7 +70,7 @@ const Home = () => {
         </li>
       </ul>
       <p className="mb-8 font-bold">... et c'est VOUS qui choisissez !</p>
-      <p>Le language que vous utilisez n'est pas dans mes comptétences? </p>
+      <p>Le langage que vous utilisez n'est pas dans mes compétences? </p>
       <p className="mb-8">
         Je peux apprendre avant le début de l'alternance, c'est justement ce que
         l'on nous enseigne à la Wild Code School !
