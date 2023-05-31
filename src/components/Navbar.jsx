@@ -21,13 +21,13 @@ const Navbar = () => {
         <p className="text-secondary text-2xl">{burger}</p>
       </label>
       <p className="sbirlobo">
-        <Link onClick={handleClickLink} to="/">
+        <Link onClick={handleClickLink} to="/Portfolio_DevWeb">
           SbirLobo
         </Link>
       </p>
       <ul className={`${active} max-lg:menu lg:nav`}>
         <li>
-          <Link onClick={handleClickLink} to="/">
+          <Link onClick={handleClickLink} to="/Portfolio_DevWeb">
             Accueil
           </Link>
         </li>

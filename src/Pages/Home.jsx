@@ -15,7 +15,7 @@ const Home = () => {
         >
           <img
             className="mb-8"
-            src="/logo/logo_wcs.png"
+            src="https://github.com/SbirLobo/Portfolio_DevWeb/assets/108263661/60ce437c-52ae-44a8-8d8d-51e5eea01651"
             alt="logo wild code school"
           />
         </a>
@@ -24,7 +24,10 @@ const Home = () => {
           rel="noreferrer"
           target="_blank"
         >
-          <img src="/logo/logo_linkedin.png" alt="logo linkedin" />
+          <img
+            src="https://github.com/SbirLobo/Portfolio_DevWeb/assets/108263661/a2902723-bcd9-4fe8-8a4b-09d725dc1030"
+            alt="logo linkedin"
+          />
         </a>
       </div>
       <h1 className="font-playfair text-2xl font-bold mb-8">
