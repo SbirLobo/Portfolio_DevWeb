@@ -18,10 +18,21 @@ const Presentation = () => {
       </p>
 
       <div className="flex flex-col sm:flex-row justify-between items-center w-full pb-8">
-        <img className="w-44 p-4" src="/logo/photo.png" alt="photo sbirlobo" />
+        <img
+          className="w-44 p-4"
+          src="https://github.com/SbirLobo/Portfolio_DevWeb/assets/108263661/0235d7a6-3331-46be-bc8a-bccbe0488d88"
+          alt="photo sbirlobo"
+        />
         <div className="flexV">
-          <a rel="noreferrer" target="_blank" href="/CV_DevWeb.pdf">
-            <img src="/logo/logo_pdf.png" alt="logo pdf document" />
+          <a
+            rel="noreferrer"
+            target="_blank"
+            href="https://github.com/SbirLobo/Portfolio_DevWeb/files/11611856/CV_DevWeb.pdf"
+          >
+            <img
+              src="https://github.com/SbirLobo/Portfolio_DevWeb/assets/108263661/e639dda9-e073-4038-aa8f-ed2cf92ce478"
+              alt="logo pdf document"
+            />
           </a>
           <p className="px-2 italic text-sm">mon CV</p>
         </div>
