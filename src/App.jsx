@@ -11,7 +11,8 @@ function App() {
     <div className="font-montserrat bg-primary text-secondary flex justify-center h-auto lg:min-h-screen min-h-screen w-screen">
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        {/* <Route path="/" element={<Home />} /> */}
+        <Route path="/Portfolio_DevWeb" element={<Home />} />
         <Route path="presentation" element={<Presentation />} />
         <Route path="contact" element={<Contact />} />
         <Route path="projects" element={<Projects />} />
