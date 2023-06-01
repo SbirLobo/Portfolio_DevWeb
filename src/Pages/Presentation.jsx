@@ -9,7 +9,8 @@ const Presentation = () => {
         <br className="mb-2" />
         - Je suis travailleur, investi, curieux et volontaire.
         <br />
-        - J'aime le travail en équipe, je suis à l'écoute de mes collaborateurs.
+        - J'aime le travail en équipe et je suis à l'écoute de mes
+        collaborateurs.
         <br />
         - J'ai le souci de la cohésion et de la cohérence.
         <br />
