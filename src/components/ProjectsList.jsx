@@ -13,7 +13,7 @@ const projectsList = [
   {
     id: 2,
     name: "Blurtest",
-    link: "blurtest.remote-fr-2.wilders.dev/",
+    link: "https://blurtest.remote-fr-2.wilders.dev/",
     code: "https://github.com/SbirLobo/Blutest",
     image:
       "https://github.com/SbirLobo/Portfolio_DevWeb/assets/108263661/9a881b1f-6a12-4d48-a5c7-96bfbf31c20f",
@@ -46,7 +46,7 @@ const projectsList = [
   {
     id: 5,
     name: "Portfolio DevWeb",
-    link: "",
+    link: "https://sbirlobo.github.io/Portfolio_DevWeb/",
     code: "https://github.com/SbirLobo/Portfolio_DevWeb",
     image:
       "https://github.com/SbirLobo/Portfolio_DevWeb/assets/108263661/2b59a88c-9a65-4d7e-90b3-24b288f6d350",
