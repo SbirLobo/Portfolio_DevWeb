@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 const ProjectCard = ({ project }) => {
   return (
     <>
-      <div className="fontCard text-xs max-h-52 flexV text-secondary">
+      <div className="fontCard text-xs max-h-60 flexV text-secondary">
         <img
           className="projectImg"
           src={project.image}

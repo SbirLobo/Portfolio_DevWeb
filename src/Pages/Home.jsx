@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div className="lg:ml-[175px] my-40 md:my-20 flex flex-col w-3/4 sm:w-2/4">
       <h2 className="font-bold text-3xl border-b-2 border-b-tertiary mb-8">
-        Recherche d'alternance
+        Recherche d'alternance{" "}
       </h2>
       <div className="flex flex-row justify-between">
         <a
@@ -33,7 +33,7 @@ const Home = () => {
       <h1 className="font-playfair text-2xl font-bold mb-8">
         Sébastien Birolleau
       </h1>
-      <p className="mb-8">
+      <p className="">
         Actuellement en{" "}
         <a
           href="https://f.hubspotusercontent10.net/hubfs/2902314/Growth/SYLLABUS/REMOTE/FR%20-%20DEV%20REMOTE.pdf?utm_campaign=Web+Developer+FT+Syllabus&utm_medium=email&_hsmi=213216587&_hsenc=p2ANqtz-_ewy0bGYvF_3Shrd0_lVofRiiItGxeOuzNhmpysv0ugnWrqfV5rMRS_8CQKhSD8atxxAPLq5zeOobFXlikSgy7zttA6g-6RkaDfboaCv3g7GBn5Zw&utm_content=213216587&utm_source=hs_automation"
@@ -45,6 +45,12 @@ const Home = () => {
         </a>{" "}
         jusqu'en juillet 2023 (diplôme en novembre), je suis à la recherche
         d'une alternance pour septembre 2023.
+      </p>
+      <p className="mb-8">
+        →{" "}
+        <span className="text-sm italic">
+          12 mois à partir de septembre 2023 (3 sem / 1 sem)
+        </span>
       </p>
       <p className="text-left">L'alternance pourra porter au choix sur :</p>
       <ul className="list-disc ml-4">
