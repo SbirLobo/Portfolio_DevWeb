@@ -48,11 +48,14 @@ const Home = () => {
       </p>
       <p className="mb-8">
         →{" "}
-        <span className="text-sm italic">
+        <span className="pl-4 text-sm italic">
           12 mois à partir de septembre 2023 (3 sem / 1 sem)
         </span>
       </p>
-      <p className="text-left">L'alternance pourra porter au choix sur :</p>
+      <p className="text-left">
+        Déjà formé sur JS et REACT, je ne me ferme pas de porte pour la suite.
+        L'alternance pourra porter au choix sur :
+      </p>
       <ul className="list-disc ml-4">
         <li>
           <a
@@ -78,8 +81,9 @@ const Home = () => {
       <p className="mb-8 font-bold">... et c'est VOUS qui choisissez !</p>
       <p>Le langage que vous utilisez n'est pas dans mes compétences? </p>
       <p className="mb-8">
-        Je peux apprendre avant le début de l'alternance, c'est justement ce que
-        l'on nous enseigne à la Wild Code School !
+        Je peux m'auto-former avant le début de l'alternance. A la Wild, on nous
+        enseigne une manière de penser et d'aborder des problème. indépendamment
+        du language, on nous forme à être adaptable sur tous les langages.
       </p>
       <ul className="flex flex-row justify-center flex-wrap">
         {Skills.map((skill) => (
