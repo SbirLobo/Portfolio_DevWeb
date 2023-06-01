@@ -5,7 +5,7 @@ const projectsList = [
     link: "https://sbirlobo.github.io/portfolio_project1/",
     code: "https://github.com/SbirLobo/portfolio_project1",
     image:
-      "https://github.com/SbirLobo/Portfolio_DevWeb/assets/108263661/575b4323-a37a-444a-b796-db394381ca0b",
+      "https://github.com/SbirLobo/Portfolio_DevWeb/assets/108263661/1cce0c3f-4623-4a73-b3f5-9fd50329e104",
     startDate: "2023/03/08",
     endDate: "2023/03/24",
     duration: "5 jours",
@@ -16,7 +16,7 @@ const projectsList = [
     link: "blurtest.remote-fr-2.wilders.dev/",
     code: "https://github.com/SbirLobo/Blutest",
     image:
-      "https://github.com/SbirLobo/Portfolio_DevWeb/assets/108263661/c4e5bab8-75bd-4fa0-b2fc-dfaccab93c7c",
+      "https://github.com/SbirLobo/Portfolio_DevWeb/assets/108263661/9a881b1f-6a12-4d48-a5c7-96bfbf31c20f",
     startDate: "2023/04/05",
     endDate: "2023/05/05",
     duration: "10 jours",
@@ -27,7 +27,7 @@ const projectsList = [
     link: "https://choixteau.netlify.app/",
     code: "https://github.com/SbirLobo/Choixteau",
     image:
-      "https://github.com/SbirLobo/Portfolio_DevWeb/assets/108263661/a15744e5-c77d-4e7b-8d33-9cad0b28f2e6",
+      "https://github.com/SbirLobo/Portfolio_DevWeb/assets/108263661/1673fdb8-6444-4437-b6b3-747a05f12eb6",
     startDate: "2023/04/11",
     endDate: "2023/04/12",
     duration: "36 heures...",
@@ -38,7 +38,7 @@ const projectsList = [
     link: "http://acs-psychologue.fr/",
     code: "https://github.com/SbirLobo/acs-psychologue",
     image:
-      "https://github.com/SbirLobo/Portfolio_DevWeb/assets/108263661/32a8424b-0a3f-49cd-8247-8e2a913ab5d8",
+      "https://github.com/SbirLobo/Portfolio_DevWeb/assets/108263661/cba4b72d-1a8f-4741-b2d9-a1c7e85994b5",
     startDate: "2023/04/11",
     endDate: "2023/04/12",
     duration: "3 jours",
@@ -49,7 +49,7 @@ const projectsList = [
     link: "",
     code: "https://github.com/SbirLobo/Portfolio_DevWeb",
     image:
-      "https://github.com/SbirLobo/Portfolio_DevWeb/assets/108263661/f0a049f2-9442-4b1e-872c-19f55892374d",
+      "https://github.com/SbirLobo/Portfolio_DevWeb/assets/108263661/2b59a88c-9a65-4d7e-90b3-24b288f6d350",
     startDate: "2023/05/28",
     endDate: "2023/05/31",
     duration: "3 jours",

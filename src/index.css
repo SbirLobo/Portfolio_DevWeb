@@ -39,14 +39,14 @@
   :root {
     font-size: medium;
     --imgwidth: 20rem;
-    --imgheigth: 100%;
+    --imgheigth: 80%;
   }
 }
 @media only screen and (min-width: 1536px) {
   :root {
     font-size: large;
     --imgwidth: 25rem;
-    --imgheigth: 100%;
+    --imgheigth: 80%;
   }
 }
 
@@ -70,6 +70,14 @@
     position: absolute;
     top: 1rem;
     left: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .sbirlobo img {
+    max-height: 3.5rem;
+    padding-right: 1.2rem;
   }
   .menuButton {
     writing-mode: vertical-rl;
@@ -121,8 +129,10 @@
   .projectImg {
     height: var(--imgheigth);
     width: var(--imgwidth);
+    max-height: min-content;
     object-fit: cover;
     object-position: 0 0;
+    padding-top: 0.5rem;
   }
   .projectName {
     font-weight: bold;

@@ -7,9 +7,10 @@ const Presentation = () => {
       <p className="px-4 max-sm:px-9 mb-8">
         je vais tâcher d'être bref...
         <br className="mb-2" />
-        - Je suis travailleur, investit, curieux et volontaire.
+        - Je suis travailleur, investi, curieux et volontaire.
         <br />
-        - J'aime le travail en équipe, je suis à l'écoute de mes collaborateurs.
+        - J'aime le travail en équipe et je suis à l'écoute de mes
+        collaborateurs.
         <br />
         - J'ai le souci de la cohésion et de la cohérence.
         <br />
@@ -20,7 +21,7 @@ const Presentation = () => {
       <div className="flex flex-col sm:flex-row justify-between items-center w-full pb-8">
         <img
           className="w-44 p-4"
-          src="https://github.com/SbirLobo/Portfolio_DevWeb/assets/108263661/0235d7a6-3331-46be-bc8a-bccbe0488d88"
+          src="https://github.com/SbirLobo/Portfolio_DevWeb/assets/108263661/858c3a75-130c-4d7e-9ec8-6449936e3d12"
           alt="photo sbirlobo"
         />
         <div className="flexV">

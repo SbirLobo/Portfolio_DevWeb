@@ -20,11 +20,19 @@ const Navbar = () => {
       >
         <p className="text-secondary text-2xl">{burger}</p>
       </label>
-      <p className="sbirlobo">
-        <Link onClick={handleClickLink} to="/Portfolio_DevWeb">
-          SbirLobo
+      <div>
+        <Link
+          className="sbirlobo"
+          onClick={handleClickLink}
+          to="/Portfolio_DevWeb"
+        >
+          <img
+            src="https://user-images.githubusercontent.com/108263661/242244143-6210e1d4-1a97-47e1-bd48-9e909e113b41.png"
+            alt="logo sbir"
+          />
+          <p className="">SbirLobo</p>
         </Link>
-      </p>
+      </div>
       <ul className={`${active} max-lg:menu lg:nav`}>
         <li>
           <Link onClick={handleClickLink} to="/Portfolio_DevWeb">
@@ -32,17 +40,17 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link onClick={handleClickLink} to="/presentation">
+          <Link onClick={handleClickLink} to="/Portfolio_DevWeb/presentation">
             Présentation
           </Link>
         </li>
         <li>
-          <Link onClick={handleClickLink} to="/projects">
+          <Link onClick={handleClickLink} to="/Portfolio_DevWeb/projects">
             Projects
           </Link>
         </li>
         <li>
-          <Link onClick={handleClickLink} to="/contact">
+          <Link onClick={handleClickLink} to="/Portfolio_DevWeb/contact">
             Contact
           </Link>
         </li>
