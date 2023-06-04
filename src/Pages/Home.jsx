@@ -82,8 +82,9 @@ const Home = () => {
       <p>Le langage que vous utilisez n'est pas dans mes compétences? </p>
       <p className="mb-8">
         Je peux m'auto-former avant le début de l'alternance. A la Wild, on nous
-        enseigne une manière de penser et d'aborder des problème. indépendamment
-        du language, on nous forme à être adaptable sur tous les langages.
+        enseigne une manière de penser et d'aborder des problèmes.
+        Indépendamment du langage, on nous forme à être adaptable sur tous les
+        langages.
       </p>
       <ul className="flex flex-row justify-center flex-wrap">
         {Skills.map((skill) => (
