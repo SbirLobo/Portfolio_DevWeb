@@ -15,6 +15,8 @@ const Presentation = () => {
         - J'ai le souci de la cohésion et de la cohérence.
         <br />
         - J'ai à coeur de satisfaire mon entourage.
+        <br />
+        - J'ai une vraie sensibilité UX.
         <br />- Je suis prêt à m'investir pleinement auprès de VOUS.
       </p>
 
@@ -28,7 +30,7 @@ const Presentation = () => {
           <a
             rel="noreferrer"
             target="_blank"
-            href="https://github.com/SbirLobo/Portfolio_DevWeb/files/11611856/CV_DevWeb.pdf"
+            href="https://github.com/SbirLobo/Portfolio_DevWeb/files/11706142/CV_DevWeb.pdf"
           >
             <img
               src="https://github.com/SbirLobo/Portfolio_DevWeb/assets/108263661/e639dda9-e073-4038-aa8f-ed2cf92ce478"

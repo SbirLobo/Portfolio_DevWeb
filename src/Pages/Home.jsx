@@ -4,7 +4,8 @@ const Home = () => {
   return (
     <div className="lg:ml-[175px] my-40 md:my-20 flex flex-col w-3/4 sm:w-2/4">
       <h2 className="font-bold text-3xl border-b-2 border-b-tertiary mb-8">
-        Recherche d'alternance{" "}
+        Recherche d'alternance - Concepteur développeur d'applications (RNCP
+        Niveau 6)
       </h2>
       <div className="flex flex-row justify-between">
         <a
