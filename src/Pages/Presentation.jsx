@@ -1,25 +1,12 @@
+import Intro from "../components/presentation/Intro";
+
 const Presentation = () => {
   return (
     <div className="lg:ml-[175px] my-40 md:my-20 flexV">
       <p className="mb-4 px-4 text-center text-xl">
         Bonjour et merci d'être ici avec moi,
       </p>
-      <p className="px-4 max-sm:px-9 mb-8">
-        je vais tâcher d'être bref...
-        <br className="mb-2" />
-        - Je suis travailleur, investi, curieux et volontaire.
-        <br />
-        - J'aime le travail en équipe et je suis à l'écoute de mes
-        collaborateurs.
-        <br />
-        - J'ai le souci de la cohésion et de la cohérence.
-        <br />
-        - J'ai à coeur de satisfaire mon entourage.
-        <br />
-        - J'ai une vraie sensibilité UX.
-        <br />- Je suis prêt à m'investir pleinement auprès de VOUS.
-      </p>
-
+      <Intro />
       <div className="flex flex-col sm:flex-row justify-between items-center w-full pb-8">
         <img
           className="w-44 p-4"
@@ -30,7 +17,7 @@ const Presentation = () => {
           <a
             rel="noreferrer"
             target="_blank"
-            href="https://github.com/SbirLobo/Portfolio_DevWeb/files/11706142/CV_DevWeb.pdf"
+            href="https://github.com/SbirLobo/Portfolio_DevWeb/files/11712733/CV_DevWeb.pdf"
           >
             <img
               src="https://github.com/SbirLobo/Portfolio_DevWeb/assets/108263661/e639dda9-e073-4038-aa8f-ed2cf92ce478"
