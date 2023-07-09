@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import navbarItems from "../constants/NavbarItems";
 
 const Navbar = () => {
   const [active, setActive] = React.useState("");
@@ -34,26 +35,15 @@ const Navbar = () => {
         </Link>
       </div>
       <ul className={`${active} max-lg:menu lg:nav`}>
-        <li>
-          <Link onClick={handleClickLink} to="/Portfolio_DevWeb">
-            Accueil
-          </Link>
-        </li>
-        <li>
-          <Link onClick={handleClickLink} to="/Portfolio_DevWeb/presentation">
-            Présentation
-          </Link>
-        </li>
-        <li>
-          <Link onClick={handleClickLink} to="/Portfolio_DevWeb/projects">
-            Projects
-          </Link>
-        </li>
-        <li>
-          <Link onClick={handleClickLink} to="/Portfolio_DevWeb/contact">
-            Contact
-          </Link>
-        </li>
+        {navbarItems.map((item) => {
+          return (
+            <li key={item.id}>
+              <Link onClick={handleClickLink} to={item.link}>
+                {item.name}
+              </Link>
+            </li>
+          );
+        })}
       </ul>
     </div>
   );
