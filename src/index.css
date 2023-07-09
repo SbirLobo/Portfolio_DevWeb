@@ -28,6 +28,11 @@
     --imgheigth: 100%;
   }
 }
+@media only screen and (max-width: 1024px) {
+  :root {
+    overflow-x: hidden;
+  }
+}
 @media only screen and (min-width: 640px) {
   :root {
     font-size: small;
@@ -87,8 +92,8 @@
   }
   .menu {
     position: absolute;
-    top: -224px;
-    right: 0;
+    top: 75px;
+    right: -159px;
     background-color: theme("colors.secondary");
     color: theme("colors.primary");
     font-weight: bold;
@@ -99,7 +104,7 @@
     padding: 1rem;
   }
   .active {
-    transform: translateY(300px);
+    transform: translatex(-159px);
     transition: transform 0.4s ease-out;
     z-index: 5;
   }

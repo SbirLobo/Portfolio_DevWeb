@@ -44,6 +44,11 @@ const Skills = [
     img: "https://github.com/SbirLobo/Portfolio_DevWeb/assets/108263661/aed8facc-b342-4edf-aca4-7b38c14adf9b",
     title: "GitHub",
   },
+  {
+    id: 10,
+    img: "https://github.com/SbirLobo/Portfolio_DevWeb/assets/108263661/448761c8-8f98-4007-9b71-ac8934b28003",
+    title: "Express",
+  },
 ];
 
 export default Skills;
