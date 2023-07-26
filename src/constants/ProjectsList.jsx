@@ -65,7 +65,7 @@ const projectsList = [
     fullstack: false,
   },
   {
-    id: 5,
+    id: 6,
     name: "Ludo-perso",
     link: "",
     code: "https://github.com/SbirLobo/ludo-perso/",
@@ -78,7 +78,7 @@ const projectsList = [
     fullstack: true,
   },
   {
-    id: 6,
+    id: 7,
     name: "Inovin",
     link: "https://atelier-inovin.remote-fr-2.wilders.dev/",
     code: "https://github.com/WildCodeSchool/2023-02-JS-RemoteFR-JSWizards-P3-Team-Slytherin",

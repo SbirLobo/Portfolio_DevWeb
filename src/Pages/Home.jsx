@@ -1,4 +1,4 @@
-import Skills from "../components/skills";
+import Skills from "../constants/Skills";
 import Part0 from "../components/home/Part0";
 import Part1 from "../components/home/Part1";
 import Part2 from "../components/home/Part2";
