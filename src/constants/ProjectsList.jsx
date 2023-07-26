@@ -9,6 +9,8 @@ const projectsList = [
     startDate: "2023/03/08",
     endDate: "2023/03/24",
     duration: "5 jours",
+    solo: false,
+    fullstack: false,
   },
   {
     id: 2,
@@ -20,6 +22,8 @@ const projectsList = [
     startDate: "2023/04/05",
     endDate: "2023/05/05",
     duration: "10 jours",
+    solo: false,
+    fullstack: false,
   },
   {
     id: 3,
@@ -31,6 +35,8 @@ const projectsList = [
     startDate: "2023/04/11",
     endDate: "2023/04/12",
     duration: "36 heures...",
+    solo: false,
+    fullstack: false,
   },
   {
     id: 4,
@@ -42,6 +48,8 @@ const projectsList = [
     startDate: "2023/04/11",
     endDate: "2023/04/12",
     duration: "3 jours",
+    solo: false,
+    fullstack: false,
   },
   {
     id: 5,
@@ -53,6 +61,34 @@ const projectsList = [
     startDate: "2023/05/28",
     endDate: "2023/05/31",
     duration: "3 jours",
+    solo: false,
+    fullstack: false,
+  },
+  {
+    id: 5,
+    name: "Ludo-perso",
+    link: "",
+    code: "https://github.com/SbirLobo/ludo-perso/",
+    image:
+      "https://github.com/SbirLobo/Portfolio_DevWeb/assets/108263661/6b7fab03-c9c4-4e93-84f0-9640a031efb3",
+    startDate: "2023/07/19",
+    endDate: "2023/07/21",
+    duration: "3 jours",
+    solo: true,
+    fullstack: true,
+  },
+  {
+    id: 6,
+    name: "Inovin",
+    link: "https://atelier-inovin.remote-fr-2.wilders.dev/",
+    code: "https://github.com/WildCodeSchool/2023-02-JS-RemoteFR-JSWizards-P3-Team-Slytherin",
+    image:
+      "https://github.com/SbirLobo/Portfolio_DevWeb/assets/108263661/6b7fab03-c9c4-4e93-84f0-9640a031efb3",
+    startDate: "2023/05/26",
+    endDate: "2023/07/26",
+    duration: "17 jours",
+    solo: false,
+    fullstack: true,
   },
 ];
 
