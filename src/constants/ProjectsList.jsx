@@ -83,7 +83,7 @@ const projectsList = [
     link: "https://atelier-inovin.remote-fr-2.wilders.dev/",
     code: "https://github.com/WildCodeSchool/2023-02-JS-RemoteFR-JSWizards-P3-Team-Slytherin",
     image:
-      "https://github.com/SbirLobo/Portfolio_DevWeb/assets/108263661/6b7fab03-c9c4-4e93-84f0-9640a031efb3",
+      "https://github.com/SbirLobo/Portfolio_DevWeb/assets/108263661/41385714-0488-4b7f-9e02-61d89746a69e",
     startDate: "2023/05/26",
     endDate: "2023/07/26",
     duration: "17 jours",
