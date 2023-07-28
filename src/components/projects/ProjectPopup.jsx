@@ -11,7 +11,7 @@ export default function ProjectPopup({ projectPopup, hidden, setHidden }) {
       setHidden(!hidden);
     }
   }
-  console.log(projectPopup.id);
+
   return (
     <>
       <div className={`${!hidden ? "hidden" : ""} flex`}>
@@ -23,12 +23,19 @@ export default function ProjectPopup({ projectPopup, hidden, setHidden }) {
           onClick={handleParentClick}
         >
           <div className="flex flex-col border-4 border-secondary items-center justify-start rounded-md bg-primary max-w-4xl h-[80%] w-[80%] p-5 cursor-default overflow-hidden">
-            {projectPopup.name}
+            <p className="text-2xl font-bold my-8">{projectPopup.name}</p>
             <img
               className="h-72 border-2 border-secondary rounded-md"
               src={projectPopup.image}
               alt={projectPopup.name}
             />
+            <p className="mt-8 font-bold">
+              Projet {projectPopup.fullstack ? "fullstack" : "front"} développé{" "}
+              {projectPopup.solo ? "seul" : "en équipe"}.
+            </p>
+            <p className="mt-8">
+              <span className="underline">Sujet :</span> {projectPopup.subject}
+            </p>
           </div>
         </div>
       </div>
@@ -37,7 +44,13 @@ export default function ProjectPopup({ projectPopup, hidden, setHidden }) {
 }
 
 ProjectPopup.propTypes = {
-  hidden: PropTypes.bool.isRequired,
-  setHidden: PropTypes.func.isRequired,
-  projectPopup: PropTypes.shape.isRequired,
+  hidden: PropTypes.bool,
+  setHidden: PropTypes.func,
+  projectPopup: PropTypes.shape({
+    image: PropTypes.string,
+    name: PropTypes.string,
+    subject: PropTypes.string,
+    fullstack: PropTypes.bool,
+    solo: PropTypes.bool,
+  }),
 };
