@@ -79,7 +79,7 @@ const projectsList = [
     link: "",
     code: "https://github.com/SbirLobo/ludo-perso/",
     image:
-      "https://github.com/SbirLobo/Portfolio_DevWeb/assets/108263661/6b7fab03-c9c4-4e93-84f0-9640a031efb3",
+      "https://github.com/SbirLobo/Portfolio_DevWeb/assets/108263661/444fc8eb-a213-4813-aebd-f9ddcb83dd8d",
     startDate: "2023/07/19",
     endDate: "2023/07/21",
     duration: "3 jours",
