@@ -17,7 +17,7 @@ const projectsList = [
   {
     id: 2,
     name: "Blurtest",
-    link: "https://blurtest.remote-fr-2.wilders.dev/",
+    link: "https://blurtestp2.vercel.app/",
     code: "https://github.com/SbirLobo/Blutest",
     image:
       "https://github.com/SbirLobo/Portfolio_DevWeb/assets/108263661/9a881b1f-6a12-4d48-a5c7-96bfbf31c20f",
@@ -76,7 +76,7 @@ const projectsList = [
   {
     id: 6,
     name: "Ludo-perso",
-    link: "",
+    link: "https://ludo-perso.vercel.app/",
     code: "https://github.com/SbirLobo/ludo-perso/",
     image:
       "https://github.com/SbirLobo/Portfolio_DevWeb/assets/108263661/444fc8eb-a213-4813-aebd-f9ddcb83dd8d",
@@ -86,13 +86,13 @@ const projectsList = [
     solo: true,
     fullstack: true,
     subject:
-      "Développement d'un projet qui sera présenté lors de l'examen du diplôme de développeur web et web mobile. Il s'agit donc d'un projet fullstack développé seul. L'objectif final est de parvenir à le mettre en ligne dans les prochaines semaines.",
+      "Développement du projet lors de l'examen du titre de développeur web et web mobile. Il s'agit donc d'un projet fullstack développé seul.",
   },
   {
     id: 7,
     name: "Inovin",
-    link: "https://atelier-inovin.remote-fr-2.wilders.dev/",
-    code: "https://github.com/WildCodeSchool/2023-02-JS-RemoteFR-JSWizards-P3-Team-Slytherin",
+    link: "https://inovin.vercel.app/",
+    code: "https://github.com/SbirLobo/inovin",
     image:
       "https://github.com/SbirLobo/Portfolio_DevWeb/assets/108263661/41385714-0488-4b7f-9e02-61d89746a69e",
     startDate: "2023/05/26",

@@ -24,11 +24,6 @@ const ProjectCard = ({ project, popup }) => {
           ) : (
             <p className="cardButton italic">indisp.</p>
           )}
-          <p className="text-center pt-1">
-            {`Du ${project.startDate} au ${project.endDate}`}
-            <br />
-            Durée : {project.duration}
-          </p>
           <a
             className="cardButton text-sm text-center h-full align-middle"
             href={project.code}
