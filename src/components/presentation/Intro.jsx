@@ -3,6 +3,8 @@ const Intro = () => {
     <p className="px-4 max-sm:px-9 mb-8">
       je vais tâcher d'être bref...
       <br className="mb-2" />
+      - J'ai 10 ans d'expérience en relation client (écoute active)
+      <br />
       - Je suis travailleur, investi, curieux et volontaire.
       <br />
       - J'aime le travail en équipe et je suis à l'écoute de mes collaborateurs.
