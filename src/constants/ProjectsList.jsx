@@ -103,6 +103,20 @@ const projectsList = [
     subject:
       "Créer un site fullstack à la demande d'un VRAI client démarché par la Wild Code School. Cédric a pour projet d'animer des ateliers de dégustation de vins monocépages, pour ensuite proposer à ses clients de créer leur propre assemblage. Le site sera utilisé sur tablette lors de ces ateliers et servira de support aux différentes étapes de l'atelier.",
   },
+  {
+    id: 8,
+    name: "Weather app",
+    link: "https://weather-app-pi-one-95.vercel.app/",
+    code: "https://github.com/SbirLobo/weather_app",
+    image:
+      "https://github.com/SbirLobo/Portfolio_DevWeb/assets/108263661/15be1210-0d86-4c35-96e8-c5a2b7279a4f",
+    startDate: "2024/02/04",
+    endDate: "2024/02/09",
+    duration: "5 jours",
+    solo: true,
+    fullstack: true,
+    subject: "Consommer une API de météo et l'API GoogleMaps.",
+  },
 ];
 
 export default projectsList;
