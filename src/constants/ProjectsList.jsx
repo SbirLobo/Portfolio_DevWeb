@@ -117,6 +117,21 @@ const projectsList = [
     fullstack: true,
     subject: "Consommer une API de météo et l'API GoogleMaps.",
   },
+  {
+    id: 9,
+    name: "Irregular verbs",
+    link: "https://irregular-verbs-zeta.vercel.app/",
+    code: "https://github.com/SbirLobo/IrregularVerbs",
+    image:
+      "https://github.com/SbirLobo/Portfolio_DevWeb/assets/108263661/15be1210-0d86-4c35-96e8-c5a2b7279a4f",
+    startDate: "2024/04/09",
+    endDate: "2024/04/10",
+    duration: "2 jours",
+    solo: true,
+    fullstack: false,
+    subject:
+      "Application click&learn très simple pour apprendre les verbes irréguliers. Denouvelles fonctionnalités pour inclure d'autres langues à venir...",
+  },
 ];
 
 export default projectsList;
