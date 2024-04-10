@@ -17,7 +17,7 @@ const projectsList = [
   {
     id: 2,
     name: "Blurtest",
-    link: "https://blurtest.remote-fr-2.wilders.dev/",
+    link: "https://blurtestp2.vercel.app/",
     code: "https://github.com/SbirLobo/Blutest",
     image:
       "https://github.com/SbirLobo/Portfolio_DevWeb/assets/108263661/9a881b1f-6a12-4d48-a5c7-96bfbf31c20f",
@@ -76,7 +76,7 @@ const projectsList = [
   {
     id: 6,
     name: "Ludo-perso",
-    link: "",
+    link: "https://ludo-perso.vercel.app/",
     code: "https://github.com/SbirLobo/ludo-perso/",
     image:
       "https://github.com/SbirLobo/Portfolio_DevWeb/assets/108263661/444fc8eb-a213-4813-aebd-f9ddcb83dd8d",
@@ -86,13 +86,13 @@ const projectsList = [
     solo: true,
     fullstack: true,
     subject:
-      "Développement d'un projet qui sera présenté lors de l'examen du diplôme de développeur web et web mobile. Il s'agit donc d'un projet fullstack développé seul. L'objectif final est de parvenir à le mettre en ligne dans les prochaines semaines.",
+      "Développement du projet lors de l'examen du titre de développeur web et web mobile. Il s'agit donc d'un projet fullstack développé seul.",
   },
   {
     id: 7,
     name: "Inovin",
-    link: "https://atelier-inovin.remote-fr-2.wilders.dev/",
-    code: "https://github.com/WildCodeSchool/2023-02-JS-RemoteFR-JSWizards-P3-Team-Slytherin",
+    link: "https://inovin.vercel.app/",
+    code: "https://github.com/SbirLobo/inovin",
     image:
       "https://github.com/SbirLobo/Portfolio_DevWeb/assets/108263661/41385714-0488-4b7f-9e02-61d89746a69e",
     startDate: "2023/05/26",
@@ -102,6 +102,35 @@ const projectsList = [
     fullstack: true,
     subject:
       "Créer un site fullstack à la demande d'un VRAI client démarché par la Wild Code School. Cédric a pour projet d'animer des ateliers de dégustation de vins monocépages, pour ensuite proposer à ses clients de créer leur propre assemblage. Le site sera utilisé sur tablette lors de ces ateliers et servira de support aux différentes étapes de l'atelier.",
+  },
+  {
+    id: 8,
+    name: "Weather app",
+    link: "https://weather-app-pi-one-95.vercel.app/",
+    code: "https://github.com/SbirLobo/weather_app",
+    image:
+      "https://github.com/SbirLobo/Portfolio_DevWeb/assets/108263661/4aceff4c-dd4f-4fab-8db7-56a6a9171c21",
+    startDate: "2024/02/04",
+    endDate: "2024/02/09",
+    duration: "5 jours",
+    solo: true,
+    fullstack: false,
+    subject: "Consommer une API de météo et l'API GoogleMaps.",
+  },
+  {
+    id: 9,
+    name: "Irregular verbs",
+    link: "https://irregular-verbs-zeta.vercel.app/",
+    code: "https://github.com/SbirLobo/IrregularVerbs",
+    image:
+      "https://github.com/SbirLobo/Portfolio_DevWeb/assets/108263661/c4054626-9ca0-43be-9e66-e5f8236de8b6",
+    startDate: "2024/04/09",
+    endDate: "2024/04/10",
+    duration: "2 jours",
+    solo: true,
+    fullstack: false,
+    subject:
+      "Application click&learn très simple pour apprendre les verbes irréguliers. Denouvelles fonctionnalités pour inclure d'autres langues à venir...",
   },
 ];
 
