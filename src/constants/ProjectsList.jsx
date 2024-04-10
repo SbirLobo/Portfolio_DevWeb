@@ -109,12 +109,12 @@ const projectsList = [
     link: "https://weather-app-pi-one-95.vercel.app/",
     code: "https://github.com/SbirLobo/weather_app",
     image:
-      "https://github.com/SbirLobo/Portfolio_DevWeb/assets/108263661/15be1210-0d86-4c35-96e8-c5a2b7279a4f",
+      "https://github.com/SbirLobo/Portfolio_DevWeb/assets/108263661/4aceff4c-dd4f-4fab-8db7-56a6a9171c21",
     startDate: "2024/02/04",
     endDate: "2024/02/09",
     duration: "5 jours",
     solo: true,
-    fullstack: true,
+    fullstack: false,
     subject: "Consommer une API de météo et l'API GoogleMaps.",
   },
   {
@@ -123,7 +123,7 @@ const projectsList = [
     link: "https://irregular-verbs-zeta.vercel.app/",
     code: "https://github.com/SbirLobo/IrregularVerbs",
     image:
-      "https://github.com/SbirLobo/Portfolio_DevWeb/assets/108263661/15be1210-0d86-4c35-96e8-c5a2b7279a4f",
+      "https://github.com/SbirLobo/Portfolio_DevWeb/assets/108263661/c4054626-9ca0-43be-9e66-e5f8236de8b6",
     startDate: "2024/04/09",
     endDate: "2024/04/10",
     duration: "2 jours",
