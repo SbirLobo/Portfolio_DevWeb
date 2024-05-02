@@ -130,7 +130,7 @@ const projectsList = [
     solo: true,
     fullstack: false,
     subject:
-      "Application click&learn très simple pour apprendre les verbes irréguliers. Denouvelles fonctionnalités pour inclure d'autres langues à venir...",
+      "Application click&learn très simple pour apprendre les verbes irréguliers. De nouvelles fonctionnalités pour inclure d'autres langues à venir...",
   },
 ];
 
