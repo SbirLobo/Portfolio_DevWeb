@@ -9,15 +9,15 @@ const Presentation = () => {
       <Intro />
       <div className="flex flex-col sm:flex-row justify-between items-center w-full pb-8">
         <img
-          className="w-44 p-4"
-          src="https://github.com/SbirLobo/Portfolio_DevWeb/assets/108263661/858c3a75-130c-4d7e-9ec8-6449936e3d12"
+          className="w-44 p-4 rounded-full border-2"
+          src="https://github.com/SbirLobo/Portfolio_DevWeb/assets/108263661/a60db72b-ac36-40c9-a353-8e339ff88041"
           alt="photo sbirlobo"
         />
         <div className="flexV">
           <a
             rel="noreferrer"
             target="_blank"
-            href="https://github.com/SbirLobo/Portfolio_DevWeb/files/11712733/CV_DevWeb.pdf"
+            href="https://github.com/user-attachments/files/15532537/CV_s.birolleau_devWeb_alt2-3.pdf"
           >
             <img
               src="https://github.com/SbirLobo/Portfolio_DevWeb/assets/108263661/e639dda9-e073-4038-aa8f-ed2cf92ce478"

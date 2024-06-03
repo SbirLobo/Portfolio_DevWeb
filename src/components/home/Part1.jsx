@@ -11,12 +11,12 @@ const Part1 = () => {
         >
           développeur web et web mobile
         </a>{" "}
-        en décembre 2023. Je suis à la recherche d'une alternance pour mai 2024.
+        en décembre 2023. Je suis à la recherche d'une alternance pour septembre 2024.
       </p>
       <p className="mb-8">
         →{" "}
         <span className="pl-4 text-sm italic">
-          12 mois à partir de mai 2023 (3 sem / 1 sem)
+          16 mois à partir de septembre 2024 (3 sem / 1 sem)
         </span>
       </p>
     </div>

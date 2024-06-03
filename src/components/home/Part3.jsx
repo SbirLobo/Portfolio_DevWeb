@@ -1,7 +1,7 @@
 const Part3 = () => {
   return (
     <div>
-      <p>Le langage que vous utilisez n'est pas dans mes compétences? </p>
+      <p className="mt-8">Le langage que vous utilisez n'est pas dans mes compétences? </p>
       <p className="mb-8">
         Je peux m'auto-former avant le début de l'alternance. A la Wild, on nous
         enseigne une manière de penser et d'aborder des problèmes.
