@@ -4,7 +4,7 @@ const Presentation = () => {
   return (
     <div className="lg:ml-[175px] my-40 md:my-20 flexV">
       <p className="mb-4 px-4 text-center text-xl">
-        Bonjour et merci d'être ici avec moi,
+        Bonjour et merci d&#39;être ici avec moi,
       </p>
       <Intro />
       <div className="flex flex-col sm:flex-row justify-between items-center w-full pb-8">
@@ -17,7 +17,7 @@ const Presentation = () => {
           <a
             rel="noreferrer"
             target="_blank"
-            href="https://github.com/user-attachments/files/15532537/CV_s.birolleau_devWeb_alt2-3.pdf"
+            href="https://github.com/user-attachments/files/15904952/CV_s.birolleau_devWeb_alt2.pdf"
           >
             <img
               src="https://github.com/SbirLobo/Portfolio_DevWeb/assets/108263661/e639dda9-e073-4038-aa8f-ed2cf92ce478"
@@ -27,7 +27,7 @@ const Presentation = () => {
           <p className="px-2 italic text-sm">mon CV</p>
         </div>
       </div>
-      <p className="mb-2">Ah, j'oubliais... J'adore l'algo !</p>
+      <p className="mb-2">Ah, j&#39;oubliais... J&#39;adore l&#39;algo !</p>
       <img
         src="https://www.codewars.com/users/sbir51/badges/large"
         alt="badge code wars"
