@@ -17,7 +17,7 @@ const Presentation = () => {
           <a
             rel="noreferrer"
             target="_blank"
-            href="https://github.com/user-attachments/files/15532537/CV_s.birolleau_devWeb_alt2-3.pdf"
+            href="https://github.com/user-attachments/files/15904805/CV_s.birolleau_devWeb_alt.pdf"
           >
             <img
               src="https://github.com/SbirLobo/Portfolio_DevWeb/assets/108263661/e639dda9-e073-4038-aa8f-ed2cf92ce478"
